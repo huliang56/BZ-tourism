@@ -16,8 +16,8 @@ document.getElementById("rightadv").style.top=parseInt(document.getElementById
 ("leftadv").style.top)+percent+"px";
 lastScrollY=lastScrollY+percent; 
 }/*以下动态在两侧存放图片*/
-suspendcode12="<DIV id=\"leftadv\" style='left:34px;POSITION:absolute;TOP:280px;'><a href=\"#\" onclick=\"javascript:close_dl_left();\"><img src='image/close.gif' /></a><br /><a target=\"_blank\" href=\"http://www.gujing.com\"><img src='image/ad.png' /></a></div>"
-suspendcode14="<DIV id=\"rightadv\" style='right:34px;POSITION:absolute;top:280px;'><a href=\"#\" onclick=\"javascript:close_dl_right();\"><img src='image/close.gif' /></a><br /><a target=\"_blank\" href=\"http://www.gujing.com\"><img src='image/ad.png' /></a></div>"
+suspendcode12="<DIV id=\"leftadv\" style='left:34px;POSITION:absolute;TOP:280px;z-index:999;'><a href=\"#\" onclick=\"javascript:close_dl_left();\"><img src='image/close.gif' /></a><br /><a target=\"_blank\" href=\"http://www.gujing.com\"><img src='image/ad.png' /></a></div>"
+suspendcode14="<DIV id=\"rightadv\" style='right:34px;POSITION:absolute;top:280px;z-index:999;'><a href=\"#\" onclick=\"javascript:close_dl_right();\"><img src='image/close.gif' /></a><br /><a target=\"_blank\" href=\"http://www.gujing.com\"><img src='image/ad.png' /></a></div>"
 document.write(suspendcode12); 
 document.write(suspendcode14); 
 var heart_o;
